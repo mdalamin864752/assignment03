@@ -15,11 +15,60 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              clifford: '#da373d',
+              green1: '#ABEF5F',
+              green2: '#d9f99d',
+              4949: '#494949',
+              2121: '#212121'
+
+            }
+          }
+        }
+      }
+    </script>
 </head>
 <body>
-    <header>
-        
-    </header>
+  <header>
+    <nav class="container mx-auto">
+        <div class="navbar bg-base-100">
+            <div class="navbar-start">
+              <button class="bg-green1 rounded-full"><i class="fa-solid fa-arrow-right -rotate-45 text-xl p-1"></i></button>
+              <div class="btn btn-ghost text-3xl font-extrabold"><p>Rinterio</p></div>
+            </div>
+            <div class="navbar-center hidden lg:flex">
+              <ul class="menu menu-horizontal px-1 text-base">
+                <li><a class="text-gray-950">Home</a></li>
+                <li ><a class="text-gray-600">Services</a></li>
+                <li><a class="text-gray-600">Portfolio</a></li>
+                <li><a class="text-gray-600">Blogs</a></li>
+                <li><a class="text-gray-600">Contact Us</a></li>
+              </ul>
+            </div>
+            <div class="navbar-end gap-6 hidden lg:flex">
+              <h1><i class="fa-solid fa-magnifying-glass lg:text-xl "></i></h1>
+              <h1><i class="fa-solid fa-cart-shopping lg:text-xl  "></i></h1>
+              <a class=" btn bg-green1 text-xl text-bold rounded-full">Book Consult
+                <button class="bg-2121 rounded-full"><i class="fa-solid fa-arrow-right -rotate-45 p-1 text-white"></i></button>
+              </a>
+            </div>
+            <div class="navbar-end lg:hidden"><i class="fa-solid fa-bars"></i></div>
+          </div>
+      </nav>
+      <!-- banner section start -->
+       <div class="text-center p-6 mt-10 ">
+       <div class="flex justify-center "> <img class="" src="images/banner.png" alt=""></div>
+        <h1 class="lg:text-6xl">A barn house of this design has a striking appearance</h1>
+        <p>The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents, and large windows that flood the space with natural light.</p>
+        <a class=" btn bg-green2 text-xl text-bold rounded-full">Book Consult
+          <button class="bg-2121 rounded-full"><i class="fa-solid fa-arrow-right -rotate-45 p-1 text-white"></i></button>
+        </a>
+       </div>
+</header>
         <main>
 
         </main>
