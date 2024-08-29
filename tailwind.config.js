@@ -5,6 +5,7 @@
           colors: {
             clifford: '#da373d',
           }
+      
         }
       }
     }
